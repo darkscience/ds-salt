@@ -3,7 +3,7 @@ zsh:
 
 /etc/skel/.zshrc:
   file.managed:
-    - source: salt://shells/zshrc
+    - source: salt://shells/files/zshrc
 
 https://github.com/robbyrussell/oh-my-zsh.git:
   git.latest:

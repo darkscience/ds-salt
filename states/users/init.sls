@@ -1,4 +1,4 @@
-{% for usr in 'dijit','kylef','derecho','elric','xlink' %}
+{% for usr in 'dijit','kylef','derecho','elric','xlink','narada' %}
 {{ usr }}:
   group:
     - present
