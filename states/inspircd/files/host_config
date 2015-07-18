@@ -1,0 +1,3 @@
+<admin name="dijit" nick="dijit" email="dijit@drk.sc">
+<autoconnect period="53" server="cthulhu.darkscience.net">
+<bind address="" port="65100" type="servers" ssl="gnutls">

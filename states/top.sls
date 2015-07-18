@@ -5,6 +5,7 @@ base:
     - users
     - users.sshkeys
     - edit.vim
+    - inspircd
 
 implode:
   'salt-minion.e3.drk':

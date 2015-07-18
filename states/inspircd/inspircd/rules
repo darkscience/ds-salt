@@ -1,0 +1,36 @@
+IRCd/Services Rules.  In the end your punishment will differ depending
+on the Oper taking action against you, and how severe the act you
+comitted was.
+ 
+All Opers will discuss your punishment after it has happened to make
+sure that it was a fair punishment and to prevent power abusing.
+ 
+1. No flooding/Spam/trolling This includes; CTCP/Channel/Query/DCC
+ 
+2. Advertising Advertising is defined as "Intentional promotion of a
+   resource." This doesn't mean that your not allowed to post websites
+   period, It just means that your posting them to help a user, rather
+   than trying to force a user to go to it. Like posting a link to
+   another IRC Network for example.
+ 
+3. No Proxies We don't allow any Open Proxies to connect to our
+   network. Since these are major causes for abuse. These arn't really
+   nesesary anymore since we've got SSL enabled ports, along with
+   encrypted passwords.  We assure you that your data and information
+   is kept safe and secure. Vhosts may be requested at any time to
+   mask your hostname.
+ 
+4. No ban evasion Ban evasion is classified as anything that you as a
+   user do to get around a channel or server ban. Channel OP's have
+   the right to ban you for no reason if they want to. Its their
+   channel, so let them do what they want. DO NOT join a main channel
+   and ask for assistance because someone has banned you from a
+   channel. You will recieve NO help. Evading the ban set either by
+   removing your vHost, changing names, proxying, or something else.
+   Will get you a punishment.
+
+5. Respect our irc operators
+
+6. All bots must set the usermode +B
+
+
