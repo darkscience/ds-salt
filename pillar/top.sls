@@ -1,9 +1,9 @@
 base:
   "[indigo,lavender,celadon,cinnabar].darkscience.net":
-    - irc.ssl_unencrypted
-    - irc.passwords_unencrypted
-    - irc.opers_unencrypted
+    - irc.ssl
+    - irc.passwords
+    - irc.opers
   'salt-minion.e3.drk.sc':
-    - irc.ssl_unencrypted
-    - irc.passwords_unencrypted
+    - irc.ssl
+    - irc.passwords
     - irc.opers_unencrypted

@@ -1,20 +1,25 @@
+#!yaml|gpg
+#
+
 mibbit:
   password: |
     -----BEGIN PGP MESSAGE-----
-    hQIMA+nD75TeHG+LAQ/8C0V860z8yFpIuBQkg4Yedw+QUgS1lamWd3v/ozZkG+eN
-    5lSoJ4WVGLCAI8nc0FrNUDJ7bskMIIQ47pa0LPXnHvi3fp7HHF8U8IRKnRbWM3Mh
-    /0k8XuTK0GfRc7poSXbfE+nQs8UgoPdL4I7XwD3mbyddtf++vkmDIEInm3mP1vUo
-    fnmPYY/jYl9bacAkdSMVQ/iv68MXiTgs2iEC1QCQ7SVOQo1Y24j6XQKm0DMoFw5o
-    hE1MIYfo4HoUglMi7doAELYS18HTUxJvTSSUGCx1J4FxmE3uAidiH0RJsp47HxPr
-    Uq+tnhtf2n4+24mSFfXantawVLoKMCjrvDxvezhE4LeaC7V2epIiMsIBi+J5zvyF
-    W9rKAEJvdYnvArrcEKk2D/jwO1dMG/7/faNBCWT/0Q9eXUDzp/N+JfUxpNg/Q2ZG
-    9hmvK19D9VfCoeklkeAhmskn5+WUrkkYaZFGOJyOZz0oqxnrxEUD9aBgZntDxgz5
-    qE5sDasr6OEmZJx5kV2OCjTZRTXKD4ANLYypJRpoNv51zfvibNfqa73OQdA5f1Oi
-    z8SL5f7pOO5QoGyWJHvJ34TD5lyS8D3tpghMVN2vV3ACENYVu0spxiZIemS7pV0W
-    gVtO8ivcSwxD3Wfn5apWSX+oFxNwRhqjiTGEqyqskZwWSe1O37k9eVNzLV5KjUTS
-    TwETgsKUkzqptGo266kLmgt3nRc+Rc0/a6lMSvwZkHEFvrbCsmv1SJ/uL/0LsXGK
-    WMcQC3IbHulsFGpEjDdqdrrMIJYlfnCz9xi3IrfMFu0=
-    =L2nY
+    Version: GnuPG v2.0.14 (GNU/Linux)
+
+    hQIMA41nn/5kar90AQ/+MCiFVukMcwX3NMHyT9exPcqcYkeNPaj0XlKGRLveSUBF
+    n9tSLqUXmQon5TPAHA3azaoyzkEdbhBpfm9Q/Lv1e3Yjp4U6rSfmbaZI6n4Bk8DO
+    IMyF4eLfcZzYz0VdXp1rtV9aWhfOZlgTN1C1Sd0gBUBFpTReabQql/ACo5Mb7FNS
+    oNSPf8bXO9r7bAh33Sv49+CUaHC+kHXOw3anGFr1YymZUFkS3pthgT+kWsK54R/f
+    6Qa+7xcsG6LCfFbxq91qHxULbhy1DVEADIbBmxXv8D4cp9D5evu7Ij/EJJXTxs7G
+    2yeGA69/sGlfLUAjk8ijSZVbQzJiwR+FnqrtZXuwwPNRj7vLgvK9VbNM5ws5tjIw
+    ZQxG1XyjBvqYEv4U0VKVVjyOwEYNqKH454doQ+XfJb3sxp0ahtHXSz2/yhGa+jzZ
+    LnP51cRYn3gonv30s+iFuqMyskUeX0mFF2s5sZOC5c2PYVCRQUV9KWyPU51BDxCH
+    WX6UpwTCTPQxggoxoaiSEejy9Q0kR644dMxvLSLjbguclLBfIpzA30HfCTauDm0q
+    niyKE6yIOzfCY5rIOOksaYArFVzNlxnuhDjeXz4RPXYLOx0p6uzSPk+ewhc3l9D1
+    2ZSc/b76fIZAJjpduLxfg2aLLs1Y+oqM8ni97+Sta/CpIQbKU49gBAqzdtiLdaDS
+    TwFAlNiECrk8UWA9HIv+foeH09gx3TLOowajWaK0EAqBN0sbBVskvhxtQnq5nwfp
+    fWWSruGfukj49NFRm8+schrJwL0Bm57j7pZGvZhHhA4=
+    =8zg7
     -----END PGP MESSAGE-----
 
 links:
@@ -22,37 +27,37 @@ links:
     -----BEGIN PGP MESSAGE-----
     Version: GnuPG v2.0.14 (GNU/Linux)
 
-    hQIMA+nD75TeHG+LAQ/+IEmn3YOOghsroP5qiLFd3wG6KiM5lsSWyxubDcHZKmVD
-    PrrslqycBlalAQFv54YGy8IgInt3K6ACn1mz7zZDkX/HBj585kXcRe+93IMN7OMs
-    YnweltQZNPayhvrnEk2P4yVk5f/ksigLYrFhFkCV5G6RH2W81APwnXnu8keB8Q5C
-    4LserkPSGgQYgNuVw51UZshx7RG6rYht8Hauw0l76+6rle0nuj7/uRy+X+KwLDCl
-    VjPBDwsQkJ/x402VZGTDOXooaLyGI0vrh30ocoiJ69fZxT/C+mJ9yLY5j5RRV8lS
-    q402pGZ3ppebBbItmJp6vFP2jnTfI/s0RiHt9hDKL9zzFPI0bFl4gKKKDX38GqZ1
-    2/c36TVdbBPebF2gRWuKOYd9skiE2+0/IWZjFjZpxXURuXIBqO/VuJGkaGnjHECm
-    xaEwGLeyjZMG34CGv4B4/hCVUZl7cIfesHVUyRUwJdZpDG1OToWgvCnKD1iEJNYI
-    gWvWYBsEJUwPeWJxagFoxs85Wbnen9XSFong8X4VZjC+E7Fuq1N793/sZGzC1Wqc
-    zWzOoAdTfNu8PU2apu/5SGMfbKc9pigfq7WrykbXai/h3f+xdTQRBzR0fokccd3Y
-    QQh8TvGsbI4ar6Rmzp2Krl0DJ8FKTRwLetGnKfrX7mwXM13tvbEQmxCRrprAj7HS
-    XAFBJ6LTU0AuaqcuToqU3s5FQ3PBsnQLOfYM8/zLiPJfxsqt16SJEilrj6eQsTmd
-    QfyXtgUAnCuRsCRETP4up4NgIfQNQltDPeerRKnGftgYx/avFTmjM1xA1zON
-    =aGSa
+    hQIMA41nn/5kar90AQ/8C5+wKfRAb58IfRvcOpwYzdXQTJgklBJR/CMGYfTy4yYp
+    dtJhIMSBoapxPUGtj3DbCLoSs0PkC8oIsVnRCde5iyFV37B95t6+r7A05cDQQplb
+    1KT4J+HF6ociPENjcDLjMki0hEd3GJ0kFUZV63OKTsNCNviglGXQWUNqWyAAUwdC
+    AmIPyMR+tznqQzK2yNlJFK6z5VxxTGHw1JB3WNz+y/Lprjg1z7jzunG+J5s3MiI5
+    AcRAX7lr6NZhVryll3Ms7vRXNQZde+QmlpJuod5yKULSLLl6KOgAIGBRRTU0Csmy
+    wsx5WSGVVCL8gFi3tZ8EQd72RE7w0k3PpLk9KVyvqLlC6m8MW1LkkBMsyitetC5e
+    j0Oh1+BLaCqGin/HR/zBv6hR+eVMXUVaLYTyBujUGLWAC/nOGVghTMNvz5PTp3H1
+    Keautu35EDDLV+qIhZZxGWPUggcE0bo6tXKA7tj+D/SCHcJ/F9H/Xz/qhHUaiD3k
+    42LI3OorpMAVvkheyMnCAeiy/Hup9lYe3eH/lSCu11tzRjOMchYxiQfy4dQAocTs
+    NdmTsED+Dh96Pow2I7JEUc7E+PiLB3NnEerHp9tQDj0qyucwe11gb0NYvD720Otp
+    d4+riPbq9CRYFk6MaOApdbAMSWRh7ERqDEWKAeZBrug01YSskIwfq0uimky+OunS
+    XAFsQXG8XlvsdFbgi/byhrIDP+mdlh2ihjIIJ9MjeBRDE/YKaw99c3Cutr7ut9u+
+    1EjOL0xjPgJN2dzvFvxo1/C590977qyVml1qcELPvFJZUg3DyYQw4ljkb9vP
+    =xGpS
     -----END PGP MESSAGE-----
   cthulhu: |
     -----BEGIN PGP MESSAGE-----
     Version: GnuPG v2.0.14 (GNU/Linux)
 
-    hQIMA+nD75TeHG+LAQ/9FhZrsKsxC1zjf9Nrngwelr54Il4//t4asrObGjWmJuhB
-    lH5OKiEM+aYdfaBXsdQHwA2VlSbXpVMu55Ugg1vbOJ1/bFpzZa3rSnwAf0KRMfST
-    u+8qjaqUFJhXQmYz+tbL9dtIXrbrilSVYPRvpRImyhpBbH98V4//o8jRLUgILtL8
-    ZACLvZaKBMQjyC9T8I5B4eColqTVeltUnKVcF/jcPOn0kaMoByN6F1nI+3UpU4IB
-    rRSfGHO8QReDxbsFaecbsgzOJ9zP3thNgW7JCRFCqbp3knYd/K6IugQ6r6ffuPJc
-    1PFB54c264v3nzk692xdY+1TwNErNDUvOmG7Y6VWYyrT18NiZJeX89c6UasLLbJ5
-    x8CFIXN2+FafcVVSenV3bJuOwo7zCtQks1/62Az+sEQyOo3bbTFIk7OIk5Gp3211
-    BUMTeh5ADOo7N8xjZkOPwOqQ2K4kKN+kU/iYf1zijzvaMYYtE0BNw7nOigrCX3wx
-    x9ijJa6VOpctBPuH8HfkkUqvjlMzph+Oq1ktMeCZEHCQHTciAOwwVPg0Zj1YjvL3
-    YSfX8rkqo1+aZxm+lOmdzVTzK7UZ70r394d5UTJcKnweRmOp4BijgBqqmBvOzEfD
-    xwnllVqxPC8OacDMKRhgVcsC86Fe+9GfBxtQajZpJlazsj/qMutBGVFuP7w4i9DS
-    XAGQndEajtcKjnuCB4CgWr/DppeMgPXZOwD1BpMsSQ1QEkBQukguAcvQv30De6rP
-    OdMVfZ+03lIp6JdLmQHuhn72j5/X7h3beWytDWHhJIlx+lFUBkaRpSxyyKCf
-    =oNKE
+    hQIMA41nn/5kar90ARAAqC+zzmGEwlE25SUDVsq4oJt/vjX0UyC3oJXgLhySqPj5
+    UvB3nAoFJceUYmVtxCjZEPLZeVanYQt+FfFH2wZPCipb+DsLWy02CPBa+VSu7DCw
+    coPZLhG00Crw1VbdDRIO0Ax4bCU1vBleUrwew8M/08KdQCT9sw8YPnIvpzLDT2kT
+    lrTKklnAoOYvka/IL9Jp7QLMA8XNl17aQ8PjiR1/vR0ruXL/tkTD8ORk6KZogL2I
+    uwfdqs/0DaLymEGrjig2zCevbPLejtmnKcvotRLASnMkHZATeuoDiRkEwBfBxp/7
+    ediQzODSAS3G63twRWzUg2urYfAKg5HzZDLBSeaOHwnF7EzUVpQDfGNapXE+onke
+    kuLCqNQLDEcufHZWRdqXmN/zMhgteZUtQbsmKgkkDNGSlLG3xU3Nb5TIw1/j1CHM
+    Uutw+iiyTRq9s2rPMP5E2Oz/ghM2S9nVGYy+yEcwfTK8QEaRHufkEthoR/VkuRmG
+    t8PFXTlavNjXg7VHxt4RxHgjzHSVXcbY7/DDBYvX8KrUvPOMk0DzLAx5UcQHPSos
+    R30pr+xINDIBWr6gY6Du3ndWeQpOdWllKunScQG8wff3Tz1rIPuSH1h1ebRpEG4b
+    4sXRdz/AOUBJZNcRsxGF8+Lub0MLFC7qn1JGurGyM46FZNax5mSW07GhO9S1RczS
+    XAFacfgwF27XFrjf3QvA8/gn7PshmbiJHyc8PPJHntAQdGZWSGQ4nlcMYiSglLxI
+    qS1x1hwKcsGRmY6UmXn4CDgZ4S0NCqUPiCDIV5G3J+RepDKOuahsU7CIf99z
+    =AK4U
     -----END PGP MESSAGE-----
