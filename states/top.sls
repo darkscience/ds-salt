@@ -1,5 +1,5 @@
 base:
-  '[celadon,cinnabar,indigo,cthulhu,saffron,lavender].darkscience.net':
+  '^(celadon|cinnabar|cthulhu|indigo|lavender|saffron).darkscience.net$':
     - shells
     - python
     - users
