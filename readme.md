@@ -5,6 +5,7 @@ for porting, please look at:
 
  * `states/inspircd/init.sls`
  * `states/edit/vim.sls`
+ * `states/security/init.sls`
 
 
 #Notes:
