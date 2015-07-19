@@ -11,9 +11,9 @@ https://github.com/robbyrussell/oh-my-zsh.git:
 
 /usr/local/share/oh-my-zsh:
   file.directory:
-    - user: dijit
-    - group: dijit
-    - mode: 777
+    - user: root
+    - group: wheel
+    - mode: 755
     - recurse:
       - user
       - group
