@@ -6,6 +6,10 @@
     - present
     - groups: ["wheel",{{ usr }}]
     - shell: /usr/local/bin/zsh
+  file.managed:
+    - name: /home/{{ usr }}/.zshrc
+    - source: salt://shells/files/zshrc
+    - user: {{ usr }}
 {% endfor %}
 
 sudo:
