@@ -6,4 +6,4 @@ base:
   'salt-minion.e3.drk.sc':
     - irc.ssl
     - irc.passwords
-    - irc.opers_unencrypted
+    - irc.opers
