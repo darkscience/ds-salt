@@ -1,11 +1,10 @@
-#{% if grains['os'] == "FreeBSD" %}:
-#  {% set install_root = "/usr/local" %}
-#{% endif %}
+{% if grains['os'] == "FreeBSD" %}
+  {% set install_root = "/usr/local" %}
+{% endif %}
 
-{% set install_root = "/usr/local" %}
-
-ircd:
+ircd_user:
   user.present:
+    - name: ircd
     - uid: 73
 
 {{ install_root }}/etc/inspircd:
@@ -30,11 +29,13 @@ ircd:
     - source: salt://inspircd/files/host_config
     - user: ircd
 
-install:
-   pkg.installed:
-     - name: inspircd
+inspircd install:
+  ports.installed:
+    - name: irc/inspircd
+    - options:
+      - GNUTLS: True
 
-service run:
+inspircd service:
   service.running:
     - name: inspircd
     - enable: True
