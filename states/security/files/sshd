@@ -1,0 +1,32 @@
+Port 22
+
+AddressFamily any
+ListenAddress 0.0.0.0
+ListenAddress ::
+
+Protocol 2
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_dsa_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+SyslogFacility AUTH
+#LogLevels: SILENT, QUIET, FATAL, ERROR, INFO, VERBOSE, DEBUG, DEBUG2, and DEBUG3. INFO is the default.
+LogLevel INFO
+LoginGraceTime 2m
+PermitRootLogin no
+StrictModes yes
+MaxAuthTries 6
+MaxSessions 10
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys
+
+PasswordAuthentication no
+UsePAM no
+
+PrintMotd yes
+UseDNS yes
+PermitTunnel no
+
+AllowUsers dijit derecho kylef narada scub xlink
