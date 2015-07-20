@@ -7,20 +7,13 @@ sure that it was a fair punishment and to prevent power abusing.
  
 1. No flooding/Spam/trolling This includes; CTCP/Channel/Query/DCC
  
-2. Advertising Advertising is defined as "Intentional promotion of a
+2. No Advertising; Advertising is defined as "Intentional promotion of a
    resource." This doesn't mean that your not allowed to post websites
    period, It just means that your posting them to help a user, rather
    than trying to force a user to go to it. Like posting a link to
    another IRC Network for example.
  
-3. No Proxies We don't allow any Open Proxies to connect to our
-   network. Since these are major causes for abuse. These arn't really
-   nesesary anymore since we've got SSL enabled ports, along with
-   encrypted passwords.  We assure you that your data and information
-   is kept safe and secure. Vhosts may be requested at any time to
-   mask your hostname.
- 
-4. No ban evasion Ban evasion is classified as anything that you as a
+3. No ban evasion; Ban evasion is classified as anything that you as a
    user do to get around a channel or server ban. Channel OP's have
    the right to ban you for no reason if they want to. Its their
    channel, so let them do what they want. DO NOT join a main channel
@@ -29,8 +22,18 @@ sure that it was a fair punishment and to prevent power abusing.
    removing your vHost, changing names, proxying, or something else.
    Will get you a punishment.
 
-5. Respect our irc operators
+4. Respect our irc operators; they're doing a job and will help.
+   they're not being paid for this.
 
-6. All bots must set the usermode +B
+5. All bots must set the usermode +B; 
+   this is so other bots can safely ignore eachother.
 
+6. Do not affect the service quality for other users.; 
+   Simply put, do not incite service unavailability.
+   this includes bringing users to darkscience which have a tendency to
+   bring distributed denial of service attacks against random people.
 
+7. Opers may not interfere with user channels; 
+   If the rules above are not infringed, channel operators are responsible
+   for the content and moderation of their own channels. An Oper may not 
+   ban users or moderate your channel otherwise.
