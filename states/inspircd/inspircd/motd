@@ -8,7 +8,7 @@
  |      \/     \/           \/     \/     \/        \/     \/     \/    \/  |
  |                        [- irc.darkscience.net -]                         |
  '--------------------------------------------------------------------------'
- cinnabar.darkscience.net
+ {{ grains['host'] }}.darkscience.net
                                                ...the darkscience irc network
  ............................................................................
  |                                                                          |
@@ -27,8 +27,8 @@
  |               -------------------------------------------                |
  |                           Network operators                              |
  |                                                                          |
- |                              o kylef                                     |
  |                              o dijit                                     |
+ |                              o kylef                                     |
  |                              o Scub                                      |
  |                                                                          |
  |                          Local IRC operators                             |
