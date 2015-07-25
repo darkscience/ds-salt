@@ -7,6 +7,10 @@ base:
     - edit.vim
     - inspircd
     - security
+  'G@os == "FreeBSD"':
+    - security.freebsd
+  'G@os == "Debian"':
+    - security.debian
   'salt-minion.e3.drk.sc':
     - shells
     - python
@@ -15,7 +19,3 @@ base:
     - edit.vim
     - inspircd
     - security
-
-implode:
-  'salt-minion.e3.drk':
-    - rm_users.evilb
