@@ -7,9 +7,9 @@ base:
     - edit.vim
     - inspircd
     - security
-  'G@os == "FreeBSD"':
+  'G@os:FreeBSD':
     - security.freebsd
-  'G@os == "Debian"':
+  'G@os:Debian':
     - security.debian
   'salt-minion.e3.drk.sc':
     - shells
