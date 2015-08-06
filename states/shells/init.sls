@@ -13,8 +13,6 @@ https://github.com/robbyrussell/oh-my-zsh.git:
   file.directory:
     - user: root
     - group: wheel
-    - mode: 755
     - recurse:
       - user
       - group
-      - mode
