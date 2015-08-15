@@ -1,8 +1,4 @@
-{% if grains['os'] == "FreeBSD" %}
-  {% set install_root = "/usr/local/etc/inspircd" %}
-{% elif grains['os'] == "Debian" %}
-  {% set install_root = "/etc/inspircd" %}
-{% endif %}
+{% set install_root salt[grains.get]('path','') %}
 
 ircd_user:
   user.present:

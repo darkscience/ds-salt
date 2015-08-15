@@ -7,3 +7,7 @@ base:
     - irc.ssl
     - irc.passwords
     - irc.opers
+  "G@os:FreeBSD":
+    - os.fbsd
+  "pallet.darchoods.net and verus.darkscience.net and debian-minion.e3.drk.sc":
+    - os.linux
