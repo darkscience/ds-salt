@@ -1,3 +1,5 @@
+{% set install_root = pillar['path'] %}
+
 {% for usr in 'dijit','kylef','derecho','elric','xlink','narada' %}
 {{ usr }}:
   group:
@@ -5,7 +7,7 @@
   user:
     - present
     - groups: ["wheel",{{ usr }}]
-    - shell: /usr/local/bin/zsh
+    - shell: {{install_root}}/bin/zsh
   file.managed:
     - name: /home/{{ usr }}/.zshrc
     - source: salt://shells/files/zshrc
@@ -14,7 +16,7 @@
 
 sudo:
   pkg.installed
-   
-/usr/local/etc/sudoers:
+
+{{install_root}}/etc/sudoers:
   file.managed:
     - source: salt://users/sudoers
