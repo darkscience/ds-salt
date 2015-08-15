@@ -1,5 +1,13 @@
 base:
-  'E@^(celadon|cinnabar|cthulhu|indigo|lavender|saffron).darkscience.net$ and pallet.darchoods.net and verus.darkscience.net':
+  'E@^(celadon|cinnabar|cthulhu|indigo|lavender|saffron|verus).darkscience.net$':
+    - shells
+    - python
+    - users
+    - users.sshkeys
+    - edit.vim
+    - inspircd
+    - security
+  'pallet.darchoods.net':
     - shells
     - python
     - users

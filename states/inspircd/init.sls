@@ -9,6 +9,8 @@ ircd_user:
     - template: jinja
     - source: salt://inspircd/inspircd
     - user: ircd
+    - recurse:
+      - user
 
 {{ pillar['path'] }}/etc/inspircd/pki/certificate.crt:
   file.managed:
