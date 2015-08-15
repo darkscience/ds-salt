@@ -1,4 +1,4 @@
-{% set install_root salt[grains.get]('path','') %}
+{% set install_root = pillar['path'] %}
 
 ircd_user:
   user.present:
