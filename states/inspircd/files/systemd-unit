@@ -1,0 +1,9 @@
+[Unit]
+Description=IRC server
+
+[Service]
+User=ircd
+ExecStart=/usr/sbin/inspircd --logfile /var/log/inspircd/inspircd.log --config /etc/inspircd/inspircd.conf --nofork
+
+[Install]
+WantedBy=multi-user.target

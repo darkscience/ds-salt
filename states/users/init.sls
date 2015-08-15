@@ -1,4 +1,8 @@
-{% set install_root = pillar['path'] %}
+{% if grains['os'] != 'FreeBSD' %}
+{{pillar['admin_group']}}:
+  group.present:
+    - gid: 305
+{% endif %}
 
 {% for usr in 'dijit','kylef','derecho','elric','xlink','narada' %}
 {{ usr }}:
@@ -6,8 +10,8 @@
     - present
   user:
     - present
-    - groups: ["wheel",{{ usr }}]
-    - shell: {{install_root}}/bin/zsh
+    - groups: [{{pillar['admin_group']}},{{ usr }}]
+    - shell: {{pillar['path']}}/bin/zsh
   file.managed:
     - name: /home/{{ usr }}/.zshrc
     - source: salt://shells/files/zshrc
@@ -17,6 +21,7 @@
 sudo:
   pkg.installed
 
-{{install_root}}/etc/sudoers:
+{{pillar['path']}}/etc/sudoers:
   file.managed:
+    - template: jinja
     - source: salt://users/sudoers

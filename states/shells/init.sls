@@ -12,9 +12,7 @@ https://github.com/robbyrussell/oh-my-zsh.git:
 /usr/local/share/oh-my-zsh:
   file.directory:
     - user: root
-    - group: wheel
-    - mode: 755
+    - group: {{pillar['admin_group']}}
     - recurse:
       - user
       - group
-      - mode

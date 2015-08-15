@@ -11,7 +11,7 @@ base:
     - security.freebsd
   'G@os:Debian':
     - security.debian
-  'salt-minion.e3.drk.sc':
+  '*-minion.e3.drk.sc':
     - shells
     - python
     - users

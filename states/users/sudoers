@@ -7,4 +7,4 @@ Defaults    env_keep += "LC_MONETARY LC_NAME LC_NUMERIC LC_PAPER LC_TELEPHONE"
 Defaults    env_keep += "LC_TIME LC_ALL LANGUAGE LINGUAS _XKB_CHARSET XAUTHORITY"
 Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 root    ALL=(ALL)       ALL
-%wheel  ALL=(ALL)	NOPASSWD: ALL
+%{{pillar['admin_group']}}  ALL=(ALL)	NOPASSWD: ALL
