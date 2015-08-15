@@ -1,2 +1,2 @@
-admin: "<admin name="None" nick="None" email="support@darchoods.net">"
+admin: '<admin name="None" nick="None" email="support@darchoods.net">'
 
