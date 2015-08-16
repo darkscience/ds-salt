@@ -1,0 +1,10 @@
+salt_minion_enable="YES"
+crypto_load=YES
+cryptodev_load=YES
+aesni_load=YES
+virtio_random_load=YES
+
+pf_enable="YES"
+pf_rules="/etc/pf.conf"
+pf_flags=""
+

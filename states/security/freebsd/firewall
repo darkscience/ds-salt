@@ -1,0 +1,14 @@
+ext_if = "vtnet0"
+tcp_services = "{ 22, 6667, 6697 }"
+scrub in on $ext_if all fragment reassemble
+block in all
+set skip on lo0
+pass out all keep state
+#pass out on $ext_if proto { tcp, udp, icmp, icmp6 } from any to any modulate state
+pass in on $ext_if proto icmp6 # required for ipv6 router discovery
+pass in on $ext_if proto tcp from { 164.138.28.182, 2a02:2770:3:0:21a:4aff:fe3a:d12 } to ($ext_if) port 65100 flags S/SA synproxy state
+block quick from <bruteforce>
+pass proto tcp from any to port $tcp_services \
+    flags S/SA keep state \
+    (max-src-conn 100, max-src-conn-rate 15/5, \
+    overload <bruteforce> flush global)

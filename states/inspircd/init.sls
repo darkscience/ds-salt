@@ -34,7 +34,7 @@ inspircd install:
   ports.installed:
     - name: irc/inspircd
     - options:
-    - GNUTLS: True
+      - GNUTLS: True
 {% elif grains['os'] == 'Debian' %}
 inspircd install:
   pkg.installed:
