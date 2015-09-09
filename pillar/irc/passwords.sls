@@ -1,7 +1,7 @@
 #!yaml|gpg
 
-mibbit:
-  password: |
+passwords:
+  mibbit: |
     -----BEGIN PGP MESSAGE-----
     Version: GnuPG v2.0.14 (GNU/Linux)
 
@@ -19,6 +19,26 @@ mibbit:
     TgE7Mn11wkS2lQO6V7wR+o+M5mQtx9FoKY6HKXbphXAQPg2Sb6iAaEdxlf3axc2O
     KgiOEipCnknRMdOk21TNymTTcEI5r2FCdbIywMXhRg==
     =+xfV
+    -----END PGP MESSAGE-----
+  kiwi: |
+    -----BEGIN PGP MESSAGE-----
+    Version: GnuPG v1
+    Comment: GPGTools - http://gpgtools.org
+
+    hQIMA+nD75TeHG+LAQ//YR8bQDOMbW/8ZP+W8p9inbzzHpQZTKpLX3hV+zjHu8jb
+    m+8F2DEUi6DPKDogJGaX7hKa/ycKXk+Q/wxmxxWjqgKirTx71KvMeT9Vy8INUxfw
+    cfOdv0AgM+6Rqql98Oiom/2U/b4xC8yDt057Tzhjq6O4Q/fT6XVUPZI937zFjusb
+    uwmavQo4qfxoPw3lydMni6Dfa59oJXaqvgoyvyScVvqtotb6Zb52dn9hczawIQmy
+    n/Q+3axZzXl2Z1JAK7uXUUMtlDBW7F2P5fJlAQtY7DfEDlh7FBH40bqlyNqnO5Kd
+    xRCGD1RiAPvucj7aW3x5j4qgZoI/rpCmaR2zCra/p+8DSa7MjpB6FpVTxkhAsfRu
+    hMuoOLqWHUwCq3K+PYdIk4fHezEI6RqdcSS/X9ZEHI53KXYJOqvzySJvLFsYWo4c
+    fp7lbCSkGg3P3BI6Ec98UD5oh9jBFJIP5VEbDzE7Y9i8qB0D9FAhaDVEGRURhoxp
+    Mm5odEcWK3Cq6Txqq0FEBDUAElHEXZ2sJbE4bkLcsce2hg0uiOwID4Em777cdAZc
+    b1iWauWDJ0OnpmueXzRRT1WFCm/YEF6nwvlxpfLcUpc1HMfQ13lT8VM0oFE2Aqma
+    35YA3C08ynVb+RrVWXP3g7RkymoN31easqTt8hI5exvalyNUSSSZSTx5CeZW3iHS
+    RQE9to56ihxnP2gjwbs1zhikKa8gMvLuiT1yCHZdZPDBGaLUyntb+uvsR2mC/Hd1
+    PRfmO3W/lhtpRSvs+SFfPzqCYG40pg==
+    =6QyJ
     -----END PGP MESSAGE-----
 
 links:
