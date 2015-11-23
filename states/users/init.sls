@@ -4,7 +4,7 @@
     - gid: 305
 {% endif %}
 
-{% for usr in 'dijit','kylef','derecho','elric','xlink','narada' %}
+{% for usr in 'dijit','kylef','derecho','elric','xlink','narada','liothen' %}
 {{ usr }}:
   group:
     - present
@@ -16,6 +16,16 @@
     - name: /home/{{ usr }}/.zshrc
     - source: salt://shells/files/zshrc
     - user: {{ usr }}
+{% endfor %}
+
+{% for usr in 'dijit','kylef','derecho','elric','xlink','narada','liothen' %}
+/home/{{usr}}/.ssh/authorized_keys:
+  file.managed:
+    - source: salt://users/keys/{{usr}}
+    - makedirs: True
+    - mode: 600
+    - user: {{usr}}
+    - group: {{usr}}
 {% endfor %}
 
 sudo:
