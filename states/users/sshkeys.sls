@@ -1,4 +1,4 @@
-{% for usr in 'dijit','xlink','elric','derecho','narada' %}
+{% for usr in 'dijit','xlink','elric','derecho','narada','liothen' %}
   /home/{{usr}}/.ssh/authorized_keys:
     file.managed:
       - source: salt://users/keys/{{usr}}
