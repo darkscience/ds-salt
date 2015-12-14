@@ -6,8 +6,8 @@ ext_if = "vtnet0"
 #Route Redirection
 icmp6_types_ext_if="{ 128, 133, 134, 135, 136, 137 }"
 
-#Echo Reply, Destination Unreachable, Source Quench, Time Exceeded
-icmp_types_ext_if="{ 0, 3, 4, 11 }"
+#Destination Unreachable, Source Quench, Echo Request, Time Exceeded
+icmp_types_ext_if="{ 3, 4, 8, 11 }"
 
 #SSH, IRC(plain), IRC(TLS)
 tcp_services = "{ 22, 6667, 6697 }"
