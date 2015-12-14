@@ -1,12 +1,28 @@
 ext_if = "vtnet0"
+
+#Neighbor Discovery Protocol (NDP) (types 133-137):
+#Router Solicitation (RS), Router Advertisement (RA)
+#Neighbor Solicitation (NS), Neighbor Advertisement (NA)
+#Route Redirection
+icmp6_types_ext_if="{ 128, 133, 134, 135, 136, 137 }"
+
+#Echo Reply, Destination Unreachable, Source Quench, Time Exceeded
+icmp_types_ext_if="{ 0, 3, 4, 11 }"
+
+#SSH, IRC(plain), IRC(TLS)
 tcp_services = "{ 22, 6667, 6697 }"
+cthulhu = "{ 164.138.28.182, 2a02:2770:3:0:21a:4aff:fe3a:d12 }"
+
 scrub in on $ext_if all fragment reassemble
 block in all
 set skip on lo0
 pass out all keep state
-#pass out on $ext_if proto { tcp, udp, icmp, icmp6 } from any to any modulate state
-pass in on $ext_if proto icmp6 # required for ipv6 router discovery
-pass in on $ext_if proto tcp from { 164.138.28.182, 2a02:2770:3:0:21a:4aff:fe3a:d12 } to ($ext_if) port 65100 flags S/SA synproxy state
+pass in on $ext_if inet6 proto ipv6-icmp icmp6-type $icmp6_types_ext_if
+pass in on $ext_if inet proto icmp icmp-type $icmp_types_ext_if
+pass in on $ext_if proto tcp from \
+    $cthulhu to ($ext_if) port 65100 flags S/SA synproxy state
+
+#This block is used to initialise <bruteforce>, and give it an action.
 block quick from <bruteforce>
 pass proto tcp from any to port $tcp_services \
     flags S/SA keep state \
