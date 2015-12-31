@@ -25,7 +25,7 @@ Well, you shouldn't be using this _only_ for insp, but if you need to: `salt -t 
 
 # Configuring a master:
 Stick this in your `/etc/salt/master` file.
-  fileserver_backend:
-  - git
-  gitfs_remotes:
-  - git://github.com/darkscience/ds-salt.git
+    fileserver_backend:
+     - git
+    gitfs_remotes:
+    - git://github.com/darkscience/ds-salt.git
