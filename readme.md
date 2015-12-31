@@ -22,3 +22,10 @@ use:
 
 # I just want an irc node.
 Well, you shouldn't be using this _only_ for insp, but if you need to: `salt -t 1200 'nodename' state.apply inspircd` should do the trick.
+
+# Configuring a master:
+Stick this in your `/etc/salt/master` file.
+  fileserver_backend:
+  - git
+  gitfs_remotes:
+  - git://github.com/darkscience/ds-salt.git
