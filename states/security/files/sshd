@@ -20,6 +20,7 @@ MaxSessions 10
 RSAAuthentication yes
 PubkeyAuthentication yes
 AuthorizedKeysFile .ssh/authorized_keys
+UseRoaming no
 
 PasswordAuthentication no
 UsePAM no
